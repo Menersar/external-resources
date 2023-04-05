@@ -6,7 +6,7 @@ function addGenerator (Blockly) {
         const tx = block.getFieldValue('TX');
         const rx = block.getFieldValue('RX');
 
-        Blockly.Arduino.includes_.chineseTTS_init = `#include <Openblock_chineseTTS.h>`;
+        Blockly.Arduino.includes_.chineseTTS_init = `#include <Scratch_chineseTTS.h>`;
         Blockly.Arduino.definitions_.chineseTTS_init = `OB_ChineseTTS chineseTTSSerial(${rx}, ${tx});`;
 
         return `chineseTTSSerial.begin();\n`;

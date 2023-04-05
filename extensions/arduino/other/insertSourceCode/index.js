@@ -20,7 +20,7 @@ const insertSourceCode = formatMessage => ({
     msg: 'msg.js',
     official: true,
     tags: ['other'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://de.scratch-wiki.info/'
 });
 
 module.exports = insertSourceCode;

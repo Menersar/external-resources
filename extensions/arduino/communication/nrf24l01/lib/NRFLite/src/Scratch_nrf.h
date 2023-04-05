@@ -1,13 +1,13 @@
 #include <SPI.h>
 #include <NRFLite.h>
 
-class Openblock_nrf
+class Scratch_nrf
 {
 private:
     NRFLite nrf24l01;
     char rx_buffer[32];
 public:
-    Openblock_nrf();
+    Scratch_nrf();
 
     void init(uint8_t id, uint8_t ce, uint8_t csn);
     void sendNumber(uint8_t id, float number);

@@ -20,7 +20,7 @@ const ultrasonic = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['sensor'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://de.scratch-wiki.info/'
 });
 
 module.exports = ultrasonic;

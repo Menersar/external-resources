@@ -21,7 +21,7 @@ const chineseTTS = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['actuator'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://de.scratch-wiki.info/'
 });
 
 module.exports = chineseTTS;
